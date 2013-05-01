@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+file_put_contents(
+	'/var/www/${1:nombre}/wp-content/themes/${1:nombre}/php.log',
+	var_export( \$${2:foo}, true )
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>file_put</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
