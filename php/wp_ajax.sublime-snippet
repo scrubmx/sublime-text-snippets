@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
 function ${1:name}(){
-	global $wpdb;
-	\$results = $wpdb->get_results(
+	global \$wpdb;
+	\$results = \$wpdb->get_results(
 		"${2:query}", OBJECT
 	);
 	return json_encode(\$results);
