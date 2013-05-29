@@ -6,6 +6,7 @@ function ${1:name}(){
 		"${2:query}", OBJECT
 	);
 	echo json_encode(\$results);
+	exit;
 }
 add_action('wp_ajax_${1:name}', '${1:name}');
 add_action('wp_ajax_nopriv_${1:name}', '${1:name}');
