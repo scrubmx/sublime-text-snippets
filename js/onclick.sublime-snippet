@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-.on('click', function (e) {
+\$('${1:selector}').on('click', function (e) {
 	e.preventDefault();
-	console.log(${1:'clicked!'});
-	console.log(\$(${2:this}));
+	console.log(${2:'clicked!'});
+	console.log(\$(${3:this}));
 });
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>.on</tabTrigger>
+	<tabTrigger>$click</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
