@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{ Form::open(array('url' => url('${1:foo/bar}'), 'class'=>'${2:form}', 'id'=>'${3:id}')) }}
+	${4:}
+{{ Form::close() }}
+]]></content>
+	<tabTrigger>Form::open</tabTrigger>
+</snippet>
