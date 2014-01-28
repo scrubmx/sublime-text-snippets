@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Input::all()
+]]></content>
+	<tabTrigger>::all</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
