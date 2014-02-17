@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+class ${1:CustomModel} extends ${2:BaseModel} {
+
+	/**
+	 * The database table used by the model.
+	 *
+	 * @var string
+	 */
+	protected $table = '${3:table}';
+
+	/**
+	 * These properties that may be mass assigned.
+	 *
+	 * @var array
+	 */
+	protected $fillable = array(${4:});
+
+	/**
+	 * Rules for validation.
+	 *
+	 * @var array
+	 */
+	public $rules = array(${5:});
+
+
+	public function __construct()
+	{
+
+	}
+}
+]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
