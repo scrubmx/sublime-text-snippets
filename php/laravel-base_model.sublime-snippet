@@ -1,0 +1,62 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+use Illuminate\Support\Str;
+
+class BaseModel extends Eloquent {
+
+	/**
+	 * Rules for validation of the model
+	 * @var array
+	 */
+	protected $rules = array();
+
+	/**
+	 * Contains the error data when validations fails.
+	 *
+	 * @var string
+	 */
+	public $errors;
+
+	/**
+	 * Validate the model attributes.
+	 *
+	 * @return boolean
+	 */
+	public function isValid()
+	{
+		$validation = Validator::make($this->attributes, $this->rules);
+
+		if ( $validation->passes() ) return true;
+
+		$this->errors = $validation->messages();
+		return false;
+	}
+
+    /**
+     * Get the excerpt attribute
+     *
+     * @return string
+     */
+	public function getExcerptAttribute()
+	{
+		return Str::words( $this->attributes['content'],  25, ' ...' );
+	}
+
+	/**
+	 * Create a slug for the title.
+	 *
+	 * @param string
+	 */
+	public function setTitleAttribute($value)
+	{
+		$this->attributes['slug']  = Str::slug($value);
+		$this->attributes['title'] = $value;
+	}
+
+}
+]]></content>
+	<tabTrigger>basemodel</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
