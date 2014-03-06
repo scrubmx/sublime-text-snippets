@@ -1,0 +1,23 @@
+<snippet>
+	<content>
+<![CDATA[
+/**
+ * @wordpress-plugin
+ *
+ * Plugin Name: ${1:PluginName}
+ * Plugin URI:  https://github.com/scrubmx/${1:PluginName}
+ * Description: ${2:...}
+ * Version:     1.0
+ * Author:      @scrubmx
+ * Author URI:  https://twitter.com/scrubmx
+ * License:     MIT license
+ * License URI: http://opensource.org/licenses/MIT
+ *
+ * @author      Jorge González <scrub.mx@gmail.com>
+ * @link        http://tangentlabs.mx
+ */
+]]>
+	</content>
+	<tabTrigger>/**plugin</tabTrigger>
+	<description>Wordpress Plugin Comments</description>
+</snippet>
