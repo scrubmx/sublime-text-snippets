@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+]]></content>
+	<tabTrigger>textoverflow</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
