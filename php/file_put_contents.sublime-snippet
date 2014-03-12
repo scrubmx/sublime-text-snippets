@@ -1,8 +1,9 @@
 <snippet>
   <content><![CDATA[
 file_put_contents(
-	'~/Desktop/php.txt',
-	var_export( \$${2:foo}, true ) . PHP_EOL
+	'~/Documents/php.txt',
+	var_export( \$${1:array}, true ) . ${2:PHP_EOL},
+	${3:FILE_APPEND}
 );
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

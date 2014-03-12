@@ -4,8 +4,6 @@
 	 ${1:}
 <?php endwhile; endif; ?>
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>main_loop</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<description>WordPress Main Loop</description>
 </snippet>

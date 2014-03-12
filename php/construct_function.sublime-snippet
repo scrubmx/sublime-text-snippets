@@ -1,7 +1,10 @@
 <snippet>
 	<content><![CDATA[
-Input::all()
+public function __construct()
+{
+	${1:}
+}
 ]]></content>
-	<tabTrigger>::all</tabTrigger>
+	<tabTrigger>_const</tabTrigger>
 	<scope>source.php</scope>
 </snippet>

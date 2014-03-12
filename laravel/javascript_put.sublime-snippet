@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+JavaScript::put(array('${1:foo}' => '${2:bar}'));
+]]></content>
+	<tabTrigger>jsput</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

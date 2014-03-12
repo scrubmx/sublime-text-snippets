@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+\$.post(ajax_url, {
+		${1:key}: ${2:value},
+		action: '${3:function}'
+	},
+	'json'
+})
+.done(function (response) {
+	console.log(response);
+});
+
+]]></content>
+  <tabTrigger>$post</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

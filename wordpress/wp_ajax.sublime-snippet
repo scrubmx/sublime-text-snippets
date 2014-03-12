@@ -10,8 +10,7 @@ function ${1:name}(){
 add_action('wp_ajax_${1:name}', '${1:name}');
 add_action('wp_ajax_nopriv_${1:name}', '${1:name}');
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wp_ajax</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.php</scope>
+	<description>Create a WordPress Compliant Ajax Function</description>
 </snippet>
