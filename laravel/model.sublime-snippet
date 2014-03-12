@@ -30,6 +30,6 @@ class ${1:CustomModel} extends ${2:BaseModel} {
 	}
 }
 ]]></content>
-	<tabTrigger>model</tabTrigger>
-	<scope>source.php</scope>
+	<tabTrigger>laravel_model</tabTrigger>
+	<description>New Laravel Model Class</description>
 </snippet>

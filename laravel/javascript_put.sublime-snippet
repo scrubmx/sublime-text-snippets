@@ -3,5 +3,5 @@
 JavaScript::put(array('${1:foo}' => '${2:bar}'));
 ]]></content>
 	<tabTrigger>jsput</tabTrigger>
-	<scope>source.php</scope>
+	<description>Laracasts Utilities JavaScript</description>
 </snippet>

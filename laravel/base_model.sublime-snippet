@@ -57,6 +57,6 @@ class BaseModel extends Eloquent {
 
 }
 ]]></content>
-	<tabTrigger>basemodel</tabTrigger>
-	<scope>source.php</scope>
+	<tabTrigger>laravel_basemodel</tabTrigger>
+	<description>New Laravel BaseModel Class</description>
 </snippet>

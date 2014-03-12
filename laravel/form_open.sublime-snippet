@@ -5,4 +5,5 @@
 {{ Form::close() }}
 ]]></content>
 	<tabTrigger>Form::open</tabTrigger>
+	<description>New Laravel Form</description>
 </snippet>

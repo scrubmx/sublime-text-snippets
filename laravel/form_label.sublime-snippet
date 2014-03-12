@@ -3,4 +3,5 @@
 {{ Form::label('${1:name}', '${2:title}', array('class' => 'awesome')) }}
 ]]></content>
 	<tabTrigger>Form::label</tabTrigger>
+	<description>New Laravel Form Label</description>
 </snippet>

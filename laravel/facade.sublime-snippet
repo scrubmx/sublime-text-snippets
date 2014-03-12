@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+namespace ${1:Acme}\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+class ${2:Classname} extends Facade {
+
+	protected static function getFacadeAccessor()
+	{
+		return '${3:classname}';
+	}
+}
+]]></content>
+	<tabTrigger>laravel_facade</tabTrigger>
+	<description>New Laravel Custom Facade Class</description>
+</snippet>

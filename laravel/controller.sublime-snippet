@@ -72,6 +72,6 @@ class ${1:CustomController} extends ${2:Controller} {
 	}
 }
 ]]></content>
-	<tabTrigger>controller</tabTrigger>
-	<scope>source.php</scope>
+	<tabTrigger>laravel_controller</tabTrigger>
+	<description>New Laravel Controller Class</description>
 </snippet>
