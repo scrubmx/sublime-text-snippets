@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 file_put_contents(
-	'~/Documents/php.txt',
+	'/Users/scrub/Documents/php.txt',
 	var_export( \$${1:array}, true ) . ${2:PHP_EOL},
 	${3:FILE_APPEND}
 );
