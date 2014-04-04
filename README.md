@@ -2,7 +2,7 @@
 
 This repository contains the snippets that I use to work on projects on a daily basis
 
-![example](http://www.google.com/image.jpg)
+![example](https://raw.github.com/scrubmx/sublime-text-snippets/master/example.gif)
 
 ## Contents
 
