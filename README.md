@@ -11,7 +11,7 @@ This repository contains the snippets that I use to work on projects on a daily 
 
 ## Install
 
-Clone this repository in your Packages/User directory
+Clone this repository inside your Packages/User/ directory
 ```
 git clone git@github.com:scrubmx/sublime-text-snippets.git Snippets
 ```
