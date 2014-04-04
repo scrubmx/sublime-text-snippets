@@ -2,6 +2,10 @@
 
 This repository contains the snippets that I use to work on projects on a daily basis
 
+![example](http://www.google.com/image.jpg)
+
+## Contents
+
 #### [CSS](https://github.com/scrubmx/sublime-text-snippets/tree/master/css)
 #### [HTML](https://github.com/scrubmx/sublime-text-snippets/tree/master/html)
 #### [JavaScript](https://github.com/scrubmx/sublime-text-snippets/tree/master/js)
